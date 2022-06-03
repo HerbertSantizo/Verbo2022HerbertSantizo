@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solucion 3</title>
+</head>
+<body>
+    <style>
+        div.a{
+            text-align: right;
+        }
+        div.b{
+            text-align: center;
+        }
+        div.c{
+            font-weight: bold;
+        }
+    </style>
+    <div style="color:black;">
+        <div class="a">
+            <font face="Eras ITC" size="4">
+            <b>Colegio Cristiano Verbo No.2<br>
+            Laboratorio Práctico II</b></font>
+        </div>
+    </div>
+    <img src="Verbo-logoo" height="120" width="325" align="left">
+<br><br><br>
+<hr size="3" color="orange">
+<font size="5">
+    <div class="b">
+        <b>Laboratorio Practico II <br>
+            Solucion 3 (Programacion en PHP)</b>
+    </div>
+</font>
+<br><br>
+    <form action="php/Solucion3.php" method="GET">
+        <table border="1" align="center">
+            <tr>
+                <td><label>Código</label></td>
+                <td>
+                    <input type="text" name="cod">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Nombre</label></td>
+                <td>
+                    <input type="text" name="nombre">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Apellido</label></td>
+                <td>
+                    <input type="text" name="apelli">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Sueldo Base</label></td>
+                <td>
+                    <input type="text" name="sueldo">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Bonificacion </label></td>
+                <td>
+                    <input type="text" name="boni">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Horas extra(#)</label></td>
+                <td>
+                    <input type="text" name="hxtras">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Descuentos</label></td>
+                <td>
+                    <input type="text" name="desc">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="submit" name="btn_consultar" value="Enviar Datos">
+                </td>
+            </tr>
+        </table>
+        </form>    
+</body>
+</html>
